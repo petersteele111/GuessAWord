@@ -42,7 +42,7 @@ namespace GuessAWord
         {
             Random ranNumberGenerator = new Random();
             int randomNumber;
-            randomNumber = ranNumberGenerator.Next(1, 8);
+            randomNumber = ranNumberGenerator.Next(0, 8);
 
             string hiddenWord = randomWords[randomNumber];
             return hiddenWord;
